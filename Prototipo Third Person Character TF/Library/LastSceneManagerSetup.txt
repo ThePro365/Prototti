@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Pruebas_Paniagua.unity
+- path: Assets/Paniagua/Scene/Pruebas_Paniagua.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
