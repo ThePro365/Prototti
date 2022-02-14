@@ -15,11 +15,11 @@ C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58599
+58683
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003063 seconds.
+Registered in 0.003138 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
+- Completed reload, in  1.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1403ms)
+	ReloadAssembly (1431ms)
 		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (508ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004923 seconds.
+Registered in 0.005018 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.540 seconds
+- Completed reload, in  1.567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1542ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1568ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1282ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1306ms)
 			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (352ms)
+			SetupTypeCache (349ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (601ms)
+			SetupLoadedEditorAssemblies (635ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2494 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 120.7 MB.
+Unloading 2627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.4 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2934.
-Total: 4.400200 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.069700 ms MarkObjects: 3.874200 ms  DeleteObjects: 0.142700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3081.
+Total: 3.979200 ms (FindLiveObjects: 0.354400 ms CreateObjectMapping: 0.075000 ms MarkObjects: 3.392600 ms  DeleteObjects: 0.155500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,74 +131,275 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Blink/Art
-  artifactKey: Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art using Guid(28141a25955c79b41b752bd583ecf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01b05ace50a098eb87642887621fa6') in 0.015210 seconds 
-  Import took 0.024463 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.2 MB.
-System memory in use after: 66.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2934.
-Total: 4.420000 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.072000 ms MarkObjects: 3.978300 ms  DeleteObjects: 0.087000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 462.114985 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.031151 seconds 
-  Import took 0.035986 seconds .
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu
+  artifactKey: Guid(133cc1b6c72f8d94ca7c000e4647da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu using Guid(133cc1b6c72f8d94ca7c000e4647da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14617beeb0818079a35626cda7ea7cf0') in 0.013601 seconds 
+  Import took 0.018163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.420433 seconds.
-  path: Assets/Paniagua/Scene
-  artifactKey: Guid(8bd7ca0560db9644b9683ebe046e6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paniagua/Scene using Guid(8bd7ca0560db9644b9683ebe046e6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b619f0e3cd74d22db465d7cfe76df40c') in 0.007281 seconds 
-  Import took 0.011628 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/New Terrain.asset
+  artifactKey: Guid(29ef0909e15a6c74dbfa6bb4a859f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/New Terrain.asset using Guid(29ef0909e15a6c74dbfa6bb4a859f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552b557ebe019a4014bca96f7279331d') in 0.110805 seconds 
+  Import took 0.115552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063970 seconds.
-  path: Assets/Paniagua/Scene/ReflectionProbe-0.exr
-  artifactKey: Guid(dcbe281eec23fdc4a8ba5b8c443bce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paniagua/Scene/ReflectionProbe-0.exr using Guid(dcbe281eec23fdc4a8ba5b8c443bce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3496f0ce9dbb341fff5732acf4486d9') in 0.144440 seconds 
-  Import took 0.149840 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/ReflectionProbe-0.exr
+  artifactKey: Guid(8c31ed3cc704b34488c46fddd67575e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/ReflectionProbe-0.exr using Guid(8c31ed3cc704b34488c46fddd67575e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0569ad9dbb5d92845d2874b44d2b3cfd') in 0.071338 seconds 
+  Import took 0.075715 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.857016 seconds.
-  path: Assets/Paniagua/Scene/Pruebas_Paniagua.unity
-  artifactKey: Guid(636973fd1d78b144f938220ff5cd4b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paniagua/Scene/Pruebas_Paniagua.unity using Guid(636973fd1d78b144f938220ff5cd4b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487075f2384a6785846d4bd12442a400') in 0.008613 seconds 
-  Import took 0.013062 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/LightingData.asset
+  artifactKey: Guid(a221d90e0cb39aa438da0748786d66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Scenes/MainMenu/LightingData.asset using Guid(a221d90e0cb39aa438da0748786d66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bb7480e15c18fae344bc5b8161d4c0') in 0.008259 seconds 
+  Import took 0.013026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.078666 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters
+  artifactKey: Guid(518d99a0cb80c57458986fa2647ba557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters using Guid(518d99a0cb80c57458986fa2647ba557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7d8739c21fc62d09834949bd124702') in 0.007524 seconds 
+  Import took 0.012036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.526906 seconds.
+  path: Assets/Blink/Art/Characters
+  artifactKey: Guid(69cd91f715bec744ca2ecf901d5331a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters using Guid(69cd91f715bec744ca2ecf901d5331a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb407d01ad6a09b11b0b1839e3c4bd9') in 0.006410 seconds 
+  Import took 0.011143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569132 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly
+  artifactKey: Guid(969fac087edf44c4c9471ed5c367cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly using Guid(969fac087edf44c4c9471ed5c367cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e5720855a7d4d79ba41ee7527c2823') in 0.008620 seconds 
+  Import took 0.013231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469977 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly
+  artifactKey: Guid(53d4fb0f5deca8c41b0e9e1cfb488e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly using Guid(53d4fb0f5deca8c41b0e9e1cfb488e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963ae68d83e7b62bd71c02fc48c2bd84') in 0.007836 seconds 
+  Import took 0.012465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008193 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly
+  artifactKey: Guid(53d4fb0f5deca8c41b0e9e1cfb488e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly using Guid(53d4fb0f5deca8c41b0e9e1cfb488e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963ae68d83e7b62bd71c02fc48c2bd84') in 0.003776 seconds 
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026877 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/HumanMale_LowPoly.prefab
+  artifactKey: Guid(c57b2778cfd168e4798322e0cb5fe311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/HumanMale_LowPoly.prefab using Guid(c57b2778cfd168e4798322e0cb5fe311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56384e2745d97a497fad61f6c1f8330b') in 0.341776 seconds 
+  Import took 0.347136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.769010 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman
+  artifactKey: Guid(44fadf3fc45fe27498db5babfdd2a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman using Guid(44fadf3fc45fe27498db5babfdd2a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9fabddeee31b2d696911213a9c4c86') in 0.008078 seconds 
+  Import took 0.012740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.103709 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman/LowPolyArmorTexture.png
+  artifactKey: Guid(73d0484e2fb132849929952fbcac81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman/LowPolyArmorTexture.png using Guid(73d0484e2fb132849929952fbcac81c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdbdf8f8b5d28305bdb1be27f5bcfb9') in 0.060028 seconds 
+  Import took 0.064860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman/LowPolyCharacterTexture.png
+  artifactKey: Guid(28cf12efe1dd5844398cc120a69e2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Textures_LowPolyHuman/LowPolyCharacterTexture.png using Guid(28cf12efe1dd5844398cc120a69e2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70fc57b2582a7dad03e617c007d8dc1') in 0.014325 seconds 
+  Import took 0.018943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.059443 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman
+  artifactKey: Guid(cada21f364d24ff4fb96833c06b6b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman using Guid(cada21f364d24ff4fb96833c06b6b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d5f56875007978dbf54caba5b638bf') in 0.007569 seconds 
+  Import took 0.012425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065439 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman/HumanMale_Character_LowPoly.fbx
+  artifactKey: Guid(47e31589d170aa44eb4f2bbd6882b803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman/HumanMale_Character_LowPoly.fbx using Guid(47e31589d170aa44eb4f2bbd6882b803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fe2e6b3b777d8d28ec71281f425b75') in 0.146121 seconds 
+  Import took 0.152510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman/StarterArmor_HumanMale_LowPoly.fbx
+  artifactKey: Guid(730fb11c9b4ab504cb422392276492cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Meshes_LowPolyHuman/StarterArmor_HumanMale_LowPoly.fbx using Guid(730fb11c9b4ab504cb422392276492cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e32a54155d06e081548acc21f5e10') in 0.052192 seconds 
+  Import took 0.056788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.947944 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman
+  artifactKey: Guid(61418c4a80e2d7745a9765615430a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman using Guid(61418c4a80e2d7745a9765615430a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e40ce68f07cb96afcce8e896f6921db') in 0.007443 seconds 
+  Import took 0.012067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047415 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor.mat
+  artifactKey: Guid(50b04a61a7b353841973fda7db19a95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor.mat using Guid(50b04a61a7b353841973fda7db19a95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314889a5f4483f87e0724372ad3fa7c7') in 0.176505 seconds 
+  Import took 0.181303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body3.mat
+  artifactKey: Guid(b3a5df1adf839e44faa5a58a631d2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body3.mat using Guid(b3a5df1adf839e44faa5a58a631d2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a029b1f4de444d63c7a96442dd823b') in 0.022900 seconds 
+  Import took 0.027211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor2.mat
+  artifactKey: Guid(522cb4e8dbcc2704babe817cb0181470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor2.mat using Guid(522cb4e8dbcc2704babe817cb0181470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb3f6d8b15d24dace8e1e3ba4289353') in 0.022876 seconds 
+  Import took 0.027245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair4.mat
+  artifactKey: Guid(8c88d3eccd86cf140b499767aa7e0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair4.mat using Guid(8c88d3eccd86cf140b499767aa7e0d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01682e12e39b26f1b33a84e19dda8c9') in 0.020743 seconds 
+  Import took 0.025087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor4.mat
+  artifactKey: Guid(c94e74fc55bd549479f1293546c864e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor4.mat using Guid(c94e74fc55bd549479f1293546c864e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7961e49fb7704dec5b5582180f8d7f8d') in 0.022611 seconds 
+  Import took 0.027128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body2.mat
+  artifactKey: Guid(cedec6059ac8b3c4aa528096f8a60bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body2.mat using Guid(cedec6059ac8b3c4aa528096f8a60bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1743cd4e9005ccf025b1581d89c2c63f') in 0.021054 seconds 
+  Import took 0.025912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair3.mat
+  artifactKey: Guid(fbd4cd663ae439448a825b0b874cbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair3.mat using Guid(fbd4cd663ae439448a825b0b874cbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ce0be14b525cac6fd62a72a197c0c') in 0.019946 seconds 
+  Import took 0.024588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair.mat
+  artifactKey: Guid(722e3cffbbfe75f4199c98209e6aa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair.mat using Guid(722e3cffbbfe75f4199c98209e6aa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8301d25e42fd9ece627bff778c51d8d') in 0.017227 seconds 
+  Import took 0.021560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair2.mat
+  artifactKey: Guid(d4820003a0e71474fbaac65971aa9e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Hair2.mat using Guid(d4820003a0e71474fbaac65971aa9e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e8758349860f416a2590f17b3da6ce') in 0.021263 seconds 
+  Import took 0.025942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body.mat
+  artifactKey: Guid(01fdf0a9d6051b14ba267b32200ad380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Body.mat using Guid(01fdf0a9d6051b14ba267b32200ad380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0037ede68e5153e389dde21b3c6424') in 0.016641 seconds 
+  Import took 0.021282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Underwear.mat
+  artifactKey: Guid(0b3429cb7c792b64a8e2a9168dff0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Underwear.mat using Guid(0b3429cb7c792b64a8e2a9168dff0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e4223c29489c4cc541ab794e15beb8') in 0.015279 seconds 
+  Import took 0.019665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor3.mat
+  artifactKey: Guid(bfec13545a9067f4b913a65921e8ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Humans_LowPoly/Materials_LowPolyHuman/Armor3.mat using Guid(bfec13545a9067f4b913a65921e8ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583571456607923a4f4cbae14d0b87e') in 0.021922 seconds 
+  Import took 0.026511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.246886 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyLicenses.txt
+  artifactKey: Guid(48cd2b498a03c4f4d8acaf656612535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyLicenses.txt using Guid(48cd2b498a03c4f4d8acaf656612535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b627889131616a55d5b998d0309b426a') in 0.013196 seconds 
+  Import took 0.017782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.473732 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets
+  artifactKey: Guid(c927bbb16412ad2468eb7ef32c2f71d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets using Guid(c927bbb16412ad2468eb7ef32c2f71d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d24de26445cf02dd26b2dde80c23d1') in 0.007738 seconds 
+  Import took 0.013013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.477867 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master
+  artifactKey: Guid(f9480c6d1cd6d6b40a65ed522f180aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master using Guid(f9480c6d1cd6d6b40a65ed522f180aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8cbff629a543f6eb7750499cd5f24') in 0.012340 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.257591 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/LICENSE.md
+  artifactKey: Guid(77523c356ccf04f56b53e6527c6b12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/xNode-master/LICENSE.md using Guid(77523c356ccf04f56b53e6527c6b12fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156538757875970419962065c8d47368') in 0.015887 seconds 
+  Import took 0.024071 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009974 seconds.
+Registered in 0.007305 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\Usuario\Documents\GitHub\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
@@ -214,45 +415,114 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.486 seconds
+- Completed reload, in  1.408 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1486ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1409ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1244ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (367ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (581ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (318ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2555 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.7 MB.
-System memory in use after: 126.9 MB.
+Unloading 2528 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.8 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3061.
-Total: 4.846800 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.070000 ms MarkObjects: 3.621200 ms  DeleteObjects: 0.830000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 3.763300 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.072200 ms MarkObjects: 3.234600 ms  DeleteObjects: 0.132400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\Usuario\Documents\GitHub\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1143ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2528 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.6 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 4.202000 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.073100 ms MarkObjects: 3.664800 ms  DeleteObjects: 0.140900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
