@@ -203,8 +203,8 @@
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGDialogue.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\LootItemSlotHolder.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGTalentTree.cs" />
-     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGDialogueGraphUtilities.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ScreenOverlayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGDialogueGraphUtilities.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\ThirdPerson\PlayerController.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGCurrency.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DisplayHandler\EquipmentItemSlotDisplayHandler.cs" />
@@ -271,8 +271,8 @@
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\AbilityManager.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CraftingManager.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CombosDisplayManager.cs" />
-     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\ParticleSystemController\ParticleSystemController.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DataHandling\CharacterData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\ParticleSystemController\ParticleSystemController.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGData\RPGStat.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UIElements\QuestObjectiveTextSlot.cs" />
      <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAppearanceHandler.cs" />
@@ -910,6 +910,12 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -918,6 +924,9 @@
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -949,24 +958,15 @@
  <Reference Include="Unity.PlasticSCM.Editor">
  <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{7186ba43-be37-34fd-2e7b-14c756d3c453}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
       <Project>{a28466e0-a410-cff1-34bc-9f637f17056e}</Project>
       <Name>XNodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{7186ba43-be37-34fd-2e7b-14c756d3c453}</Project>
+      <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
