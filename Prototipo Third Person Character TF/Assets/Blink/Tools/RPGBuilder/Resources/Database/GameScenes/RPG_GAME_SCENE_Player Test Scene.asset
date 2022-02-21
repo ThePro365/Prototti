@@ -17,7 +17,7 @@ MonoBehaviour:
   _fileName: RPG_GAME_SCENE_Player Test Scene
   displayName: Player Test
   description: 
-  loadingBG: {fileID: 0}
+  loadingBG: {fileID: 21300000, guid: 9715d3dd6b238724398a35d4aae32dba, type: 3}
   minimapImage: {fileID: 0}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -27,4 +27,37 @@ MonoBehaviour:
   startPositionREF: {fileID: 0}
   isProceduralScene: 0
   SpawnPointName: 
-  regions: []
+  regions:
+  - regionName: Test Area
+    fogChange: 0
+    lightningChange: 0
+    skyboxChange: 0
+    cameraParticleChange: 0
+    musicChange: 0
+    combatModeChange: 1
+    combatStateChange: 0
+    welcomeText: 0
+    gameActions: 0
+    taskCompletion: 0
+    showInEditor: 1
+    fogEnabled: 1
+    fogColor: {r: 0, g: 0, b: 0, a: 0}
+    fogMode: 1
+    fogDensity: 0
+    fogStartDistance: 0
+    fogEndDistance: 0
+    fogTransitionSpeed: 0.5
+    lightEnabled: 1
+    lightColor: {r: 0, g: 0, b: 0, a: 0}
+    lightIntensity: 0
+    lightGameobjectName: 
+    lightTransitionSpeed: 0.5
+    skyboxCubemap: {fileID: 0}
+    skyboxTransitionSpeed: 0.5
+    cameraParticle: {fileID: 0}
+    musicClips: []
+    combatEnabled: 1
+    inCombat: 0
+    welcomeMessageText: 
+    welcomeMessageDuration: 0
+    GameActionsList: []
