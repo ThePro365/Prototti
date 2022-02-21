@@ -15,11 +15,11 @@ C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54045
+54238
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 C:/Users/Usuario/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 108.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005413 seconds.
+Registered in 0.003453 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.815 seconds
+- Completed reload, in  1.423 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2815ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (601ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019137 seconds.
+Registered in 0.005880 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.956 seconds
+- Completed reload, in  1.576 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1957ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1646ms)
-			LoadAssemblies (267ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1324ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (351ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (712ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (646ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2628 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 142.7 MB.
 System memory in use after: 142.8 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3085.
-Total: 4.717600 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.075000 ms MarkObjects: 4.094600 ms  DeleteObjects: 0.200700 ms)
+Total: 4.077600 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.071400 ms MarkObjects: 3.493200 ms  DeleteObjects: 0.169900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,16 +131,561 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/InputSystem.inputsettings.asset
-  artifactKey: Guid(989873435e8f70249be82c00b78b58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem.inputsettings.asset using Guid(989873435e8f70249be82c00b78b58f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d7599bf0a84157ec76484f7b4099fe') in 0.057919 seconds 
-  Import took 0.063607 seconds .
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/BlueFlower_RN.prefab
+  artifactKey: Guid(ea001bcd68210d644a1e2bc2ebd9fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/BlueFlower_RN.prefab using Guid(ea001bcd68210d644a1e2bc2ebd9fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5859fe83e3664136df37156bf2e15f') in 0.409642 seconds 
+  Import took 0.414733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2788.715653 seconds.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/YellowFlower_RN.prefab
+  artifactKey: Guid(bd4026ed7ee8ba145b81f270bb07fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/YellowFlower_RN.prefab using Guid(bd4026ed7ee8ba145b81f270bb07fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e97dccd70d532e7efc4512086f1adec') in 0.064462 seconds 
+  Import took 0.068980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag.prefab
+  artifactKey: Guid(e0369926586ca3549bc495485a236897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag.prefab using Guid(e0369926586ca3549bc495485a236897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6808fa8518d91add5f68c6914f45cb1') in 0.220896 seconds 
+  Import took 0.225441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes
+  artifactKey: Guid(b29a57532a26d8f4d81f14efb235188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes using Guid(b29a57532a26d8f4d81f14efb235188a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e366adf6be868aab15935f6f34dcc205') in 0.009132 seconds 
+  Import took 0.013176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/EpicChest.prefab
+  artifactKey: Guid(e8cf7dcd6636ff6418644a9a74ec5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/EpicChest.prefab using Guid(e8cf7dcd6636ff6418644a9a74ec5895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561ca14556d30b17c01a716ccf9d088') in 0.038693 seconds 
+  Import took 0.043717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/IronOre_RN.prefab
+  artifactKey: Guid(b89e158032e07bf40ace278c0351571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/IronOre_RN.prefab using Guid(b89e158032e07bf40ace278c0351571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7b21fe0de5738f97d9a6c2693ce9db') in 0.036884 seconds 
+  Import took 0.041245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs
+  artifactKey: Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs using Guid(b620be2732c5f904baa70189205212fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c8e7575df2165006742ba38720eb6') in 0.010184 seconds 
+  Import took 0.015120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/Graveyard.prefab
+  artifactKey: Guid(3cc1018f196faa94da7b46ee524ff3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/Graveyard.prefab using Guid(3cc1018f196faa94da7b46ee524ff3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3411a905fc45905c1f48502eccfa4e') in 0.072477 seconds 
+  Import took 0.077089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab
+  artifactKey: Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/CopperOre_RN.prefab using Guid(2850c78b4d3ebcb41872dadb192abfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a752cbf488e0d9525fc8e1d920df4ff9') in 0.035422 seconds 
+  Import took 0.040250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab
+  artifactKey: Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/ResourceNodes/RedFlower_RN.prefab using Guid(8e697c88644fcf643b0d8f2765a5ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e808c790a4d734796c412c2c34da5c0f') in 0.034432 seconds 
+  Import took 0.038999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.259701 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/CraftingStations
+  artifactKey: Guid(65e77bf77652e3a4283f3dae4dbad438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/CraftingStations using Guid(65e77bf77652e3a4283f3dae4dbad438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c89282082ea4e140d9c8b1dbf3e0ac6') in 0.008989 seconds 
+  Import took 0.013687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.306614 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Essentials/Controller_Essentials/CameraRig.prefab
+  artifactKey: Guid(80844b2319340044da27db99208a9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Essentials/Controller_Essentials/CameraRig.prefab using Guid(80844b2319340044da27db99208a9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a5596c6aaa7bdea6525630e748d81a') in 0.528944 seconds 
+  Import took 0.535563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.198032 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/01_plate_chest.png
+  artifactKey: Guid(0d41c78c15608b9409eb00afec3ed96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/01_plate_chest.png using Guid(0d41c78c15608b9409eb00afec3ed96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa8c04aa456c3c865fb034fd5684882') in 0.079461 seconds 
+  Import took 0.084237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/06_plate_pants.png
+  artifactKey: Guid(10afac693271bff43a544128ba1a4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/06_plate_pants.png using Guid(10afac693271bff43a544128ba1a4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f51c2aef539c4e8aa1b988d0c0c5eb3') in 0.021711 seconds 
+  Import took 0.026027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/04_plate_gloves_E.png
+  artifactKey: Guid(931f022512eae044cbe25c8d275efc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/04_plate_gloves_E.png using Guid(931f022512eae044cbe25c8d275efc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231030d4bf9f6325902b3d91e36daf6c') in 0.021056 seconds 
+  Import took 0.026084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_1.mat
+  artifactKey: Guid(4db48bac22841af47a598f106d80ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_1.mat using Guid(4db48bac22841af47a598f106d80ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf87cf5e5d1f021f7bc78098796f0f') in 0.331052 seconds 
+  Import took 0.335832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/03_plate_helm.png
+  artifactKey: Guid(ffe26c65166e29643985dcaf65b555a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/03_plate_helm.png using Guid(ffe26c65166e29643985dcaf65b555a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99643a79d6b017154f4243912a8df076') in 0.021523 seconds 
+  Import took 0.026117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_2.mat
+  artifactKey: Guid(e629723a5f07a83419f7a6965435ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_2.mat using Guid(e629723a5f07a83419f7a6965435ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0abafd29c8d962a3f0cb12343c790c') in 0.324479 seconds 
+  Import took 0.329678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/02_plate_cloak_nobg.png
+  artifactKey: Guid(ab85cec1d157b3646b406880d721cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/02_plate_cloak_nobg.png using Guid(ab85cec1d157b3646b406880d721cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c9ca9f941996761bd9d6a02e1c0776') in 0.027728 seconds 
+  Import took 0.032374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/06_plate_pants_nobg.png
+  artifactKey: Guid(44cc653b99d751a43bfe8ca3237c4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/06_plate_pants_nobg.png using Guid(44cc653b99d751a43bfe8ca3237c4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b19b3e89c069cc8ca1f593ee9a08f9') in 0.028911 seconds 
+  Import took 0.033286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/02_plate_shoulder_E_nobg.png
+  artifactKey: Guid(f45cc704819e94542a0e3b10998da35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/02_plate_shoulder_E_nobg.png using Guid(f45cc704819e94542a0e3b10998da35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafed121e9fefdd953db5e23bd8a0924') in 0.028879 seconds 
+  Import took 0.033505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/02_plate_shoulder_nobg.png
+  artifactKey: Guid(239c79d6ee3d6ad43add6beb792abdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/02_plate_shoulder_nobg.png using Guid(239c79d6ee3d6ad43add6beb792abdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa921a1e77e2eef6b6d527aa811fa21') in 0.028749 seconds 
+  Import took 0.033270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/04_plate_gloves_E_nobg.png
+  artifactKey: Guid(c0e8c7c2e59219848b9ca94f411532f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/04_plate_gloves_E_nobg.png using Guid(c0e8c7c2e59219848b9ca94f411532f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbd0a76e430e8b251ca5a62684b41a2') in 0.029083 seconds 
+  Import took 0.033298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/01_plate_chest_E_nobg.png
+  artifactKey: Guid(e988df16161a3914d8c9b7a4c24d67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/01_plate_chest_E_nobg.png using Guid(e988df16161a3914d8c9b7a4c24d67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895f6c7d3b8f0a29846bfe66f7e8a535') in 0.030734 seconds 
+  Import took 0.292726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/01_plate_chest_nobg.png
+  artifactKey: Guid(24715615fc701e440831bd01de69c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/01_plate_chest_nobg.png using Guid(24715615fc701e440831bd01de69c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da196157f68bba6917080f379e9ca172') in 0.061877 seconds 
+  Import took 0.066428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_3.mat
+  artifactKey: Guid(b8c295e4531285649a3d0e4aa72d84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Pyromancer/Mat/BL_Pyro_Splash_3.mat using Guid(b8c295e4531285649a3d0e4aa72d84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c12676fbaca48e074b72727c995f4') in 0.030035 seconds 
+  Import took 0.034884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/04_plate_gloves_nobg.png
+  artifactKey: Guid(e902388ab5411e84ca7e74fb54935cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/04_plate_gloves_nobg.png using Guid(e902388ab5411e84ca7e74fb54935cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb2e88598ced6e99264bd95c2fa5c38') in 0.026284 seconds 
+  Import took 0.030449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/03_plate_helm_E_nobg.png
+  artifactKey: Guid(d6eadc745dbd1654d93b035cdf0b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/03_plate_helm_E_nobg.png using Guid(d6eadc745dbd1654d93b035cdf0b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89492bab52a7f6c100f1eaa451c2e657') in 0.028500 seconds 
+  Import took 0.032725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/05_plate_boots_nobg.png
+  artifactKey: Guid(f8388f78f56453a448b40ef87669e74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/05_plate_boots_nobg.png using Guid(f8388f78f56453a448b40ef87669e74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e752e33a92ae925c6baeb453112ceb') in 0.029362 seconds 
+  Import took 0.034076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/06_plate_pants_E_nobg.png
+  artifactKey: Guid(a794718cbf71a234ea72b481b8f80744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/06_plate_pants_E_nobg.png using Guid(a794718cbf71a234ea72b481b8f80744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d20df8f869471d8e232fe944556b634') in 0.030262 seconds 
+  Import took 0.034898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/06_plate_pants_E.png
+  artifactKey: Guid(9a819b47c3f32244b82a0e0880ae4c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/06_plate_pants_E.png using Guid(9a819b47c3f32244b82a0e0880ae4c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea02edabc739dea5b4ab9544a252c5e') in 0.020702 seconds 
+  Import took 0.025066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/05_plate_boots_E_nobg.png
+  artifactKey: Guid(ce81e89e052bc35419da6395c17cc13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/05_plate_boots_E_nobg.png using Guid(ce81e89e052bc35419da6395c17cc13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcceb8e410f799b5b11836c6f67add9') in 0.028746 seconds 
+  Import took 0.033596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraightWhite.png
+  artifactKey: Guid(53cb85d5281eb80468c63b50ff9c54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraightWhite.png using Guid(53cb85d5281eb80468c63b50ff9c54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b39f4b69761f689a1f81523087122e') in 0.029526 seconds 
+  Import took 0.034084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraight2.png
+  artifactKey: Guid(e05109a69c74a5447b079584b1328da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraight2.png using Guid(e05109a69c74a5447b079584b1328da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b3c9a683f1155ca7b150c37dfc58d') in 0.029060 seconds 
+  Import took 0.033266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraight.png
+  artifactKey: Guid(8c576aa014150b74e9d03223dc3423ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBarStraight.png using Guid(8c576aa014150b74e9d03223dc3423ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a8dd0821463e51d4ca634a670dc528') in 0.027424 seconds 
+  Import took 0.031823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBarStraight2.png
+  artifactKey: Guid(d43e9fdf30cecef419c52abadbfdff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBarStraight2.png using Guid(d43e9fdf30cecef419c52abadbfdff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ae54e5358722aa340dbc400d8736b8') in 0.034343 seconds 
+  Import took 0.038502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBar.png
+  artifactKey: Guid(3d53620eebfafb4448ebfed260b84b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerHealthBar.png using Guid(3d53620eebfafb4448ebfed260b84b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928974f63cca45d2d5c40763b91cebc1') in 0.031112 seconds 
+  Import took 0.035678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/Prefabs/PlayerDialogueOptionSlot.prefab
+  artifactKey: Guid(65a26cd38e4a39e45ac3f629fe4702ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/Prefabs/PlayerDialogueOptionSlot.prefab using Guid(65a26cd38e4a39e45ac3f629fe4702ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d8a70b3b5667995ea2a80205862e9e') in 0.070674 seconds 
+  Import took 0.075125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerBarOFF.png
+  artifactKey: Guid(d377678150807064c92c22658fbaceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerBarOFF.png using Guid(d377678150807064c92c22658fbaceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40f9c506f5df29fe6b673b05ec32b17') in 0.029082 seconds 
+  Import took 0.033385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBarStraight.png
+  artifactKey: Guid(38804d9ba6aec26478c577e49cae32c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBarStraight.png using Guid(38804d9ba6aec26478c577e49cae32c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa800e1597258e76084b309a522f7581') in 0.028686 seconds 
+  Import took 0.033273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/UI/Textures/player_mana.png
+  artifactKey: Guid(38c3ab21257a46f45b30f6c63bb53c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/UI/Textures/player_mana.png using Guid(38c3ab21257a46f45b30f6c63bb53c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb8f600d92e8d597b0b4c6f0c947d74') in 0.025128 seconds 
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerStaminaBarStraight2.png
+  artifactKey: Guid(f6d6492b5227da34dabc2305050814e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerStaminaBarStraight2.png using Guid(f6d6492b5227da34dabc2305050814e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3c296493a536574e26a5ff8a5c55db') in 0.027534 seconds 
+  Import took 0.031741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerBigStaminaBarStraight1.png
+  artifactKey: Guid(58ff9e9ca78277f4fad2b70a859ac003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerBigStaminaBarStraight1.png using Guid(58ff9e9ca78277f4fad2b70a859ac003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165b1ac43b06f54bafc9ebfce4cba6f3') in 0.035361 seconds 
+  Import took 0.039438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/Prefabs/PlayerInput.prefab
+  artifactKey: Guid(9fc93746cd21fd242a8ba21364516c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/Prefabs/PlayerInput.prefab using Guid(9fc93746cd21fd242a8ba21364516c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3bd8fa0ae19f1b35a882e5cfa44d52') in 0.013599 seconds 
+  Import took 0.017763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/UI/Textures/Player_Hp.png
+  artifactKey: Guid(4d980c16b3d148d4db51439f3a06ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/UI/Textures/Player_Hp.png using Guid(4d980c16b3d148d4db51439f3a06ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4005ac0895677f86b764930d7c1f6a8f') in 0.027801 seconds 
+  Import took 0.032838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset
+  artifactKey: Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/NaughtyCharacter/ScriptableObjects/PlayerController.asset using Guid(827c282016b19644d99b2337152dc01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ceb6b0a27d0507c7a42d8ac62b4ecf') in 0.012316 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/05_plate_boots.png
+  artifactKey: Guid(df86068bf2baaf749bd66add5deb0f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/05_plate_boots.png using Guid(df86068bf2baaf749bd66add5deb0f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58e7bd55d8ecec5e2cb19263b9ba9d0') in 0.022283 seconds 
+  Import took 0.027030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/04_plate_gloves.png
+  artifactKey: Guid(e2f0bbddae828614e9d870115ceff324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/04_plate_gloves.png using Guid(e2f0bbddae828614e9d870115ceff324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf7c6c3e89a6565a2f434efc7519629') in 0.023500 seconds 
+  Import took 0.028387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/02_plate_cloak.png
+  artifactKey: Guid(4506fdc0be9711b47b1aae84444445c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/02_plate_cloak.png using Guid(4506fdc0be9711b47b1aae84444445c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2fea3151b11af83216c76959c3cb95') in 0.021192 seconds 
+  Import took 0.025603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/05_plate_boots_E.png
+  artifactKey: Guid(b1e34e208d1d1084bb51ea065f571e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/05_plate_boots_E.png using Guid(b1e34e208d1d1084bb51ea065f571e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3a9258e5dccc5e733d75de1ae1c16a') in 0.023393 seconds 
+  Import took 0.027784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Cryomancer/Mat/BL_Cryo_Splash_Fade.mat
+  artifactKey: Guid(e4c34a71cb577204082a01cae35fbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Prefabs/Cryomancer/Mat/BL_Cryo_Splash_Fade.mat using Guid(e4c34a71cb577204082a01cae35fbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45b8d222c7c5b63f14b0d005196a7a4') in 0.288551 seconds 
+  Import took 0.293050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/01_plate_chest_E.png
+  artifactKey: Guid(58eed039f6f44ab4486c5514b8ba2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/01_plate_chest_E.png using Guid(58eed039f6f44ab4486c5514b8ba2c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4871bf72003bf2c299c5b313c4ca869') in 0.023174 seconds 
+  Import took 0.027462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/02_plate_cloak_E_nobg.png
+  artifactKey: Guid(ef3194ed5ca98b544878ab3234069d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/Nobg/02_plate_cloak_E_nobg.png using Guid(ef3194ed5ca98b544878ab3234069d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23529405972a3ea128ffaf788ab94f57') in 0.029448 seconds 
+  Import took 0.033985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/03_plate_helm_nobg.png
+  artifactKey: Guid(6ca37b87890f63d48ba973d8ed4dbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/Nobg/03_plate_helm_nobg.png using Guid(6ca37b87890f63d48ba973d8ed4dbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc17671b0c55a7470d259eb788d90800') in 0.028576 seconds 
+  Import took 0.033309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/03_plate_helm_E.png
+  artifactKey: Guid(cfc74c0ea26280045a3229845cfe52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/03_plate_helm_E.png using Guid(cfc74c0ea26280045a3229845cfe52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640e224e15f9feb37f451ac744d4634') in 0.021589 seconds 
+  Import took 0.026992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/PLAYER_HumanMale.prefab
+  artifactKey: Guid(1fb8a18395915ed4cb03838d275d8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/PLAYER_HumanMale.prefab using Guid(1fb8a18395915ed4cb03838d275d8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e069d78c0b82e03de0fa856e3c1b2e8') in 0.176107 seconds 
+  Import took 0.183603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBar.png
+  artifactKey: Guid(a07bbc5a5b85a7645b2752e4f7dbb9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/HUD/PlayerEnergyBar.png using Guid(a07bbc5a5b85a7645b2752e4f7dbb9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835b52bed8be0c1bbf07c7fd6ccf7729') in 0.029916 seconds 
+  Import took 0.034908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/02_plate_cloak_E.png
+  artifactKey: Guid(9c14945ff8075a84f90a60cb1f0da5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/02_plate_cloak_E.png using Guid(9c14945ff8075a84f90a60cb1f0da5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a2b2388eff325ebcb58fd7efb8865e') in 0.022684 seconds 
+  Import took 0.027440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/02_plate_shoulder.png
+  artifactKey: Guid(f7be6f90379c0554596574cbb6ef3fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Common/02_plate_shoulder.png using Guid(f7be6f90379c0554596574cbb6ef3fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd9853aca5b6a280df11336f383e6e') in 0.023460 seconds 
+  Import took 0.028571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/02_plate_shoulder_E.png
+  artifactKey: Guid(72aef244e61a7e046aa063d49c793223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Items/Armor/Epic/02_plate_shoulder_E.png using Guid(72aef244e61a7e046aa063d49c793223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db43f8654154072781c65aa4f5952f8d') in 0.025577 seconds 
+  Import took 0.030568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 898.683346 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(c2a47afbf8218d94eb5e9c23c51b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(c2a47afbf8218d94eb5e9c23c51b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc008a22dc96a3fcbfd881b89c2208a') in 0.014695 seconds 
+  Import took 0.019986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766261 seconds.
+  path: Assets/Paniagua/Materials/Paredes.mat
+  artifactKey: Guid(e41656bfaf806164086d1ae3393f3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Materials/Paredes.mat using Guid(e41656bfaf806164086d1ae3393f3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0777b6bab0e1951496db00181dcd7c') in 0.024606 seconds 
+  Import took 0.030101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Paniagua/Materials/Suelo.mat
+  artifactKey: Guid(293a010c3e11ade48b53e9600ceb6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Materials/Suelo.mat using Guid(293a010c3e11ade48b53e9600ceb6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf5fa557ab2b5937a942e96d2c28ddc') in 0.024684 seconds 
+  Import took 0.029266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.988261 seconds.
   path: Assets/Paniagua/Scene/Test Scene.unity
   artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paniagua/Scene/Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851f62eab484847fb2e62701c5899ea') in 0.035515 seconds 
-  Import took 0.131457 seconds .
+Start importing Assets/Paniagua/Scene/Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89c4cc2272d947a3c30c6443a2c1dac') in 0.008924 seconds 
+  Import took 0.013937 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 13.016765 seconds.
+  path: Assets/Paniagua/Scene/PLayer Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/PLayer Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b75d5a53063d39e8bcfaba0daafbacd') in 0.009839 seconds 
+  Import took 0.014732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.073605 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4734bc512264ea0384148754dc79a513') in 0.010226 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1775.067074 seconds.
+  path: Assets/Paniagua/Scene/NPC and Enemy Test Scene.unity
+  artifactKey: Guid(c301fc0d7ada6194d92c54f2ffaf94ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/NPC and Enemy Test Scene.unity using Guid(c301fc0d7ada6194d92c54f2ffaf94ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c79e296fe8114cfd95d751b65e0f301') in 0.010596 seconds 
+  Import took 0.016745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002393 seconds.
+  path: Assets/Paniagua/Scene/NPC and Enemy Test Scene.unity
+  artifactKey: Guid(c301fc0d7ada6194d92c54f2ffaf94ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/NPC and Enemy Test Scene.unity using Guid(c301fc0d7ada6194d92c54f2ffaf94ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c79e296fe8114cfd95d751b65e0f301') in 0.005081 seconds 
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.197676 seconds.
+  path: Assets/Paniagua/Scene/Inventory Test Scene.unity
+  artifactKey: Guid(ef182d85065a6e04eb07044370cea2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Inventory Test Scene.unity using Guid(ef182d85065a6e04eb07044370cea2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93469bb2e3c3f84d46ea9f45af18494') in 0.009749 seconds 
+  Import took 0.014469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003056 seconds.
+  path: Assets/Paniagua/Scene/Inventory Test Scene.unity
+  artifactKey: Guid(ef182d85065a6e04eb07044370cea2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Inventory Test Scene.unity using Guid(ef182d85065a6e04eb07044370cea2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93469bb2e3c3f84d46ea9f45af18494') in 0.003929 seconds 
+  Import took 0.008557 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
