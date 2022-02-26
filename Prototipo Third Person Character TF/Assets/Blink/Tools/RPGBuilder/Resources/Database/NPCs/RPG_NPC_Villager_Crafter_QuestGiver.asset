@@ -46,12 +46,12 @@ MonoBehaviour:
   DistanceToTargetReset: 25
   RoamRange: 0
   RoamDelay: 0
-  MinRespawn: 5
+  MinRespawn: 1
   MaxRespawn: 10
-  corpseDespawnTime: 15
-  MinEXP: 0
-  MaxEXP: 0
-  EXPBonusPerLevel: 0
+  corpseDespawnTime: 1
+  MinEXP: 20
+  MaxEXP: 25
+  EXPBonusPerLevel: 10
   factionRewards: []
   MinLevel: 15
   MaxLevel: 15
@@ -68,15 +68,17 @@ MonoBehaviour:
     baseValue: 550
     bonusPerLevel: 0
     vitalityActions: []
-  lootTables: []
-  isCombatEnabled: 1
+  lootTables:
+  - lootTableID: 11
+    lootTableREF: {fileID: 11400000, guid: 6fcff6dba0d10134f9f7d4dcc9537ed6, type: 2}
+    dropRate: 100
+  isCombatEnabled: 0
   isMovementEnabled: 1
-  isCollisionEnabled: 0
-  isTargetable: 1
+  isCollisionEnabled: 1
+  isTargetable: 0
   isNameplateEnabled: 1
   isPlayerInteractable: 1
-  NPCVisual: {fileID: 8922295634012456540, guid: b978b39b7421c0a43a6d7ad27424aab1,
-    type: 3}
+  NPCVisual: {fileID: 8922295634012456540, guid: b978b39b7421c0a43a6d7ad27424aab1, type: 3}
   modelPosition: {x: 0, y: 0, z: 0}
   modelScale: {x: 1, y: 1, z: 1}
   nameplateYOffset: 2.25
