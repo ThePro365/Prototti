@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 16233 MB
+OS: 'Windows 10 Home; OS build 19042.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,30 +11,39 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/GithubProjects/Prototti/Prototipo Third Person Character TF
+C:/Users/Álvaro/Documents/GitHub/Prototti/Prototipo Third Person Character TF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 57892
 Successfully changed project path to: D:/GithubProjects/Prototti/Prototipo Third Person Character TF
 D:/GithubProjects/Prototti/Prototipo Third Person Character TF
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 123.33 ms, found 2 plugins.
+=======
+59503
+Successfully changed project path to: C:/Users/Álvaro/Documents/GitHub/Prototti/Prototipo Third Person Character TF
+C:/Users/Álvaro/Documents/GitHub/Prototti/Prototipo Third Person Character TF
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.03 ms, found 2 plugins.
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GithubProjects/Prototti/Prototipo Third Person Character TF/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Álvaro/Documents/GitHub/Prototti/Prototipo Third Person Character TF/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   30.0.15.1179
+    Driver:   30.0.15.1123
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +57,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1660ms)
 		BeginReloadAssembly (88ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002444 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (64ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (586ms)
 			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,12 +85,27 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (42ms)
 			SetupLoadedEditorAssemblies (252ms)
+=======
+		EndReloadAssembly (545ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (237ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (16ms)
 				ProcessInitializeOnLoadAttributes (101ms)
+=======
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,6 +113,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.004553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +124,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1698ms)
 		BeginReloadAssembly (204ms)
+=======
+Registered in 0.004072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (166ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (25ms)
 		EndReloadAssembly (1408ms)
 			LoadAssemblies (136ms)
@@ -106,18 +160,38 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
+=======
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2481 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.0 MB.
-System memory in use after: 137.2 MB.
+System memory in use before: 137.8 MB.
+System memory in use after: 137.9 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2939.
-Total: 4.408300 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.145600 ms MarkObjects: 3.753200 ms  DeleteObjects: 0.246500 ms)
+Total: 6.581000 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.146000 ms MarkObjects: 5.828400 ms  DeleteObjects: 0.235700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,6 +206,1657 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFrontRight.fbx
+  artifactKey: Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFrontRight.fbx using Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b4439383ff0f041ad67c1559587ee5') in 0.449913 seconds 
+  Import took 0.459148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunIdle.fbx
+  artifactKey: Guid(0e0341343f16f8349afc3114b11c71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunIdle.fbx using Guid(0e0341343f16f8349afc3114b11c71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24209aa2313615c6952e98728ba329') in 0.093590 seconds 
+  Import took 0.102140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle2.fbx
+  artifactKey: Guid(da8a135eea6ec3c4ea78d2932814c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle2.fbx using Guid(da8a135eea6ec3c4ea78d2932814c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85df0bdd15c2a51ab413e254cc5a3d31') in 0.067396 seconds 
+  Import took 0.076456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenQuickTurnLeft.fbx
+  artifactKey: Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenQuickTurnLeft.fbx using Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e30ecddce37d0625c3b20dd7095ad71') in 0.052409 seconds 
+  Import took 0.058932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo2.fbx
+  artifactKey: Guid(506fbaf36141f7842ad5ad583349cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo2.fbx using Guid(506fbaf36141f7842ad5ad583349cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97406d1cebe1b7967a0331c8c0a835') in 0.045303 seconds 
+  Import took 0.050095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo4.fbx
+  artifactKey: Guid(6fd1fb8479e6a994f9e4cc7fb79d2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo4.fbx using Guid(6fd1fb8479e6a994f9e4cc7fb79d2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8e7e09965dc559cac7a4fe364ba86a') in 0.046160 seconds 
+  Import took 0.052999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunBackward.fbx
+  artifactKey: Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunBackward.fbx using Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ee0047c10890130cfef1a1ec019e6') in 0.045369 seconds 
+  Import took 0.050142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenJump.fbx
+  artifactKey: Guid(1bbe72df8c2b6af46bfbadad72175372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenJump.fbx using Guid(1bbe72df8c2b6af46bfbadad72175372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfba699a3f2881fa465baa0ebbd080e') in 0.034452 seconds 
+  Import took 0.040056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForward.fbx
+  artifactKey: Guid(591b8bf650e73d641a396d03b9f6af89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForward.fbx using Guid(591b8bf650e73d641a396d03b9f6af89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2beba2a945ae8ae94b6bc74d47823f') in 0.040473 seconds 
+  Import took 0.046422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunPutAway.fbx
+  artifactKey: Guid(3fca713ac647fc742a74a4aa7922c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunPutAway.fbx using Guid(3fca713ac647fc742a74a4aa7922c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b395bad980bbfc9b319864e87ea8d3') in 0.040347 seconds 
+  Import took 0.045715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdle.fbx
+  artifactKey: Guid(83b647f9ffea82b4a9680e016dec2197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdle.fbx using Guid(83b647f9ffea82b4a9680e016dec2197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd585280e72a79f6f7217943f2e0aad') in 0.040245 seconds 
+  Import took 0.045701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFront.fbx
+  artifactKey: Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFront.fbx using Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24924276ff2b99a9720d0e9c79728b56') in 0.029921 seconds 
+  Import took 0.034511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardBackwardTransition.fbx
+  artifactKey: Guid(7f7de4b0c45098b4bb8c8a28c32699f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardBackwardTransition.fbx using Guid(7f7de4b0c45098b4bb8c8a28c32699f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a966da1c4748970d27422a617dcd6631') in 0.037697 seconds 
+  Import took 0.042827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForward_Unity.fbx
+  artifactKey: Guid(389d81f739a319c41ba08bd14508f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForward_Unity.fbx using Guid(389d81f739a319c41ba08bd14508f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b154960af59d204a80f2d9352dea74b') in 0.589796 seconds 
+  Import took 0.595731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/UI_Panels_Essentials/--- DEVELOPER UI ---.prefab
+  artifactKey: Guid(58ede46b042dbf544b76d7722c6bf35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/UI_Panels_Essentials/--- DEVELOPER UI ---.prefab using Guid(58ede46b042dbf544b76d7722c6bf35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5521df7f5918099ce47d44f6b24598b9') in 0.223085 seconds 
+  Import took 0.229027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo2_Unity.fbx
+  artifactKey: Guid(db070bef61e6194498b9fb8eb0318072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo2_Unity.fbx using Guid(db070bef61e6194498b9fb8eb0318072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c226ccc4ff4954c473d274f42b16b1f') in 0.065278 seconds 
+  Import took 0.070522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardLanding.fbx
+  artifactKey: Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardLanding.fbx using Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baa01f3cd9747da20789204a0a32d92') in 0.036419 seconds 
+  Import took 0.041650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo1_Unity.fbx
+  artifactKey: Guid(e36c713e598726845bec05b7065818f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo1_Unity.fbx using Guid(e36c713e598726845bec05b7065818f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f81f78610d49920415403e6168fdec') in 0.071204 seconds 
+  Import took 0.076582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90RightWalk.fbx
+  artifactKey: Guid(c8577a90f79f06842becdb9853f5e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90RightWalk.fbx using Guid(c8577a90f79f06842becdb9853f5e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66c4cac4a37b6f03e2725b877953c42') in 0.041043 seconds 
+  Import took 0.049321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo5_Unity.fbx
+  artifactKey: Guid(18a5e4e0358132740a2ec0be978973e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo5_Unity.fbx using Guid(18a5e4e0358132740a2ec0be978973e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9be48855b769b2e9bb0e63deca9a6d') in 0.102118 seconds 
+  Import took 0.110668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenDeath.fbx
+  artifactKey: Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenDeath.fbx using Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bed1284530596926dfca9e57897143') in 0.039553 seconds 
+  Import took 0.045441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitLeft.fbx
+  artifactKey: Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitLeft.fbx using Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d690cbdfc018734ba5f447efa7420a') in 0.038312 seconds 
+  Import took 0.044162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo3.fbx
+  artifactKey: Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo3.fbx using Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8d41d206d940786e9ceafc9488e133') in 0.041757 seconds 
+  Import took 0.047445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBackRight.fbx
+  artifactKey: Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBackRight.fbx using Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100d88936d024c8f0b242e1a4445330a') in 0.055363 seconds 
+  Import took 0.063072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle3.fbx
+  artifactKey: Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle3.fbx using Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066f95b980e3cf9140513b580d1cacd0') in 0.054709 seconds 
+  Import took 0.060787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunBackward_Unity.fbx
+  artifactKey: Guid(00af8ac611d291f42a94453bb675835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunBackward_Unity.fbx using Guid(00af8ac611d291f42a94453bb675835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd600ce27ca07958a149f1d069d1bce70') in 0.067491 seconds 
+  Import took 0.072838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToRunForward.fbx
+  artifactKey: Guid(9e5e0bf7083ea6f43be5801e4da5f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToRunForward.fbx using Guid(9e5e0bf7083ea6f43be5801e4da5f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e1f00526ed0052a5467272465377ee') in 0.039050 seconds 
+  Import took 0.045060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo4_Unity.fbx
+  artifactKey: Guid(f4bcd639fcae49c4f8c0caba06b6c52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo4_Unity.fbx using Guid(f4bcd639fcae49c4f8c0caba06b6c52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a7ca23a1215225deb70cb7c70d291a') in 0.079529 seconds 
+  Import took 0.085328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardStrafeRight_Unity.fbx
+  artifactKey: Guid(77fee20edc09ead4387e4b8be6abd729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardStrafeRight_Unity.fbx using Guid(77fee20edc09ead4387e4b8be6abd729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f654a179dd26a07c5890e66c11cda3f0') in 0.064228 seconds 
+  Import took 0.070346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90LeftRun.fbx
+  artifactKey: Guid(2e6750cd6e0130946a094ddae3cec953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90LeftRun.fbx using Guid(2e6750cd6e0130946a094ddae3cec953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cb039cff4a6354d9d5d6b3e8716cc5') in 0.035878 seconds 
+  Import took 0.040973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenQuickTurnRight.fbx
+  artifactKey: Guid(3aa06abc72aea9e4bb96a7adbc69536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenQuickTurnRight.fbx using Guid(3aa06abc72aea9e4bb96a7adbc69536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bf32e2acbe3cb23bfd8fe644996027') in 0.035684 seconds 
+  Import took 0.041962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo6_Unity.fbx
+  artifactKey: Guid(d76881bcc8956784aa853badfed35637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo6_Unity.fbx using Guid(d76881bcc8956784aa853badfed35637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff463d887574fb0b5192964948b6c9') in 0.067159 seconds 
+  Import took 0.072825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunShoot.fbx
+  artifactKey: Guid(60b35be23e16e5746972444b244460e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunShoot.fbx using Guid(60b35be23e16e5746972444b244460e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4e9fbdda56e8accdf10503e2e0ddaf') in 0.037431 seconds 
+  Import took 0.042878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenDeath_Unity.fbx
+  artifactKey: Guid(a418495d00805484688a31745c717d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenDeath_Unity.fbx using Guid(a418495d00805484688a31745c717d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15e9d1675d8e295e1e83d51477040fd') in 0.061941 seconds 
+  Import took 0.067300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo3_Unity.fbx
+  artifactKey: Guid(c5f01727c74255d4195667f9eab49196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo3_Unity.fbx using Guid(c5f01727c74255d4195667f9eab49196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9700597475548df35102a959b05395') in 0.077787 seconds 
+  Import took 0.085807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenJump_Unity.fbx
+  artifactKey: Guid(787822c38fefa2f4d9693e38d27156c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenJump_Unity.fbx using Guid(787822c38fefa2f4d9693e38d27156c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676d33bf172950f7f04e5dc1fa673e53') in 0.096692 seconds 
+  Import took 0.104493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFrontLeft.fbx
+  artifactKey: Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitFrontLeft.fbx using Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e7488e40c01aaca8395fb5559eed2') in 0.059046 seconds 
+  Import took 0.068035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/HUD_Essentials/--- HUD ---.prefab
+  artifactKey: Guid(a5487c1e62fdcaa479dc4367cb0a9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/HUD_Essentials/--- HUD ---.prefab using Guid(a5487c1e62fdcaa479dc4367cb0a9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee6ccb9ce434a783ccefea319ae2787') in 0.623682 seconds 
+  Import took 0.636646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90LeftWalk.fbx
+  artifactKey: Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90LeftWalk.fbx using Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b6bdc5dfd663c64d78ef999d2e4240') in 0.054720 seconds 
+  Import took 0.061908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdle_Unity.fbx
+  artifactKey: Guid(a13540af4005bc74f9ffb4c15cfb3a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdle_Unity.fbx using Guid(a13540af4005bc74f9ffb4c15cfb3a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1669aac7940760a3a99e7d7643cd15c') in 0.095512 seconds 
+  Import took 0.103572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBack.fbx
+  artifactKey: Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBack.fbx using Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3458c786d880f00597a23b1d7c7351') in 0.051802 seconds 
+  Import took 0.062313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBackLeft.fbx
+  artifactKey: Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitBackLeft.fbx using Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c790b765ba9c644147d255bf2acb3016') in 0.047263 seconds 
+  Import took 0.054512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdleLandFast.fbx
+  artifactKey: Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenIdleLandFast.fbx using Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41712486a41f2aa50fbc887566631ff') in 0.048093 seconds 
+  Import took 0.055342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn180LeftRun.fbx
+  artifactKey: Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn180LeftRun.fbx using Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a5a0999bb2afa5a9bfedd41338434f') in 0.048031 seconds 
+  Import took 0.054958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo1.fbx
+  artifactKey: Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenCombo1.fbx using Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90daa1c07a4d5e03446b1a3b9a88924d') in 0.045337 seconds 
+  Import took 0.051456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle1.fbx
+  artifactKey: Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRandomIdle1.fbx using Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30df42fe6b4b31a8f1421713554d3c6b') in 0.040227 seconds 
+  Import took 0.047964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/UI_Panels_Essentials/--- DIALOGUES ---.prefab
+  artifactKey: Guid(812cca038ec55814b9982d780ed30128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Essentials/UI_Essentials/UI_Panels_Essentials/--- DIALOGUES ---.prefab using Guid(812cca038ec55814b9982d780ed30128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b67704a35a6f2c78052a96fd6fbc6') in 0.025923 seconds 
+  Import took 0.031356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenSpawn.fbx
+  artifactKey: Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenSpawn.fbx using Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31eb673b620bba0baf633e6cd3c46e') in 0.040151 seconds 
+  Import took 0.046031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardLandingFast.fbx
+  artifactKey: Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenRunForwardLandingFast.fbx using Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfad4525c02a7d6b94e387ac2c997da') in 0.037878 seconds 
+  Import took 0.043063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90RightRun.fbx
+  artifactKey: Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenStationaryToTurn90RightRun.fbx using Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3715e2f0bf368f044f32532905c47fb3') in 0.037088 seconds 
+  Import took 0.041830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunTakeOut.fbx
+  artifactKey: Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenGunTakeOut.fbx using Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130b73a3fd60e3717bc374e709579479') in 0.040696 seconds 
+  Import took 0.046394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitRight.fbx
+  artifactKey: Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Unity/@EllenHitRight.fbx using Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab63775234bf81143d2fe583db04d7a') in 0.039457 seconds 
+  Import took 0.044193 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 151.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 6.264700 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 0.202500 ms MarkObjects: 5.487200 ms  DeleteObjects: 0.051800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1165ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.8 MB.
+System memory in use after: 151.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 6.059200 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.195700 ms MarkObjects: 5.241300 ms  DeleteObjects: 0.163300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302.407565 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/GameScenes/RPG_GAME_SCENE_Player Test Scene.asset
+  artifactKey: Guid(23b9a45d817f3fe478b0cad46e6f8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/GameScenes/RPG_GAME_SCENE_Player Test Scene.asset using Guid(23b9a45d817f3fe478b0cad46e6f8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdad1b8de2d41b47d44662de1ff2d80') in 0.053340 seconds 
+  Import took 0.058202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/GameScenes/RPG_GAME_SCENE_RPGBuilderDemo.asset
+  artifactKey: Guid(ead2cd819aa6e524abc11ccf29587508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/GameScenes/RPG_GAME_SCENE_RPGBuilderDemo.asset using Guid(ead2cd819aa6e524abc11ccf29587508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c02074674e296be949178cbe19bb31a') in 0.783320 seconds 
+  Import took 0.815756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.565697 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Classes/Man_1_nobg.png
+  artifactKey: Guid(1a8f6fd0e567f5e4eb90ed11a0abd56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/PONETI/Basic_RPG_Icons/Classes/Man_1_nobg.png using Guid(1a8f6fd0e567f5e4eb90ed11a0abd56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6700a4f7be61eb52f11f1c67d645d2') in 0.068829 seconds 
+  Import took 0.073136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.941779 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e5ef93d22f2c2e3fe1e966e0f0b9e') in 0.006716 seconds 
+  Import took 0.011487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1385ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.0 MB.
+System memory in use after: 151.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 5.981700 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.186400 ms MarkObjects: 5.375000 ms  DeleteObjects: 0.037300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.518695 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/WorldPositions/RPG_WORLD_POSITION_Test Start.asset
+  artifactKey: Guid(f195df55d0f6abd4a94edcb75bc5a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/WorldPositions/RPG_WORLD_POSITION_Test Start.asset using Guid(f195df55d0f6abd4a94edcb75bc5a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3f15f75fb0e7460900bc8f0752d48e') in 0.039929 seconds 
+  Import took 0.046146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001604 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/WorldPositions/RPG_WORLD_POSITION_Test Start.asset
+  artifactKey: Guid(f195df55d0f6abd4a94edcb75bc5a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/WorldPositions/RPG_WORLD_POSITION_Test Start.asset using Guid(f195df55d0f6abd4a94edcb75bc5a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3f15f75fb0e7460900bc8f0752d48e') in 0.003532 seconds 
+  Import took 0.008193 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 6.001100 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.155600 ms MarkObjects: 5.492700 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 5.553400 ms (FindLiveObjects: 0.313900 ms CreateObjectMapping: 0.159000 ms MarkObjects: 5.049700 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 381.833524 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5e4a4e56a4040f2e4eccc4c83b956e') in 0.038476 seconds 
+  Import took 0.044231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 9.722900 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.154800 ms MarkObjects: 9.218100 ms  DeleteObjects: 0.049000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.699030 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9136312a4117db28340e86a98fedfb') in 0.030863 seconds 
+  Import took 0.036426 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3000.
+Total: 6.143900 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.199100 ms MarkObjects: 5.539400 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3917ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3514ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1705ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (260ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (228ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3002.
+Total: 8.397600 ms (FindLiveObjects: 0.633500 ms CreateObjectMapping: 0.322200 ms MarkObjects: 7.398400 ms  DeleteObjects: 0.041000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.737628 seconds.
+  path: Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Models/Providers/MockSourceControlProvider.cs
+  artifactKey: Guid(c1a720a51e44604479a70a6a175aac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Models/Providers/MockSourceControlProvider.cs using Guid(c1a720a51e44604479a70a6a175aac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee55dee8b1b57abd3195c5ed128569') in 0.036244 seconds 
+  Import took 0.048890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03903d33f87ee95d99960ff7c80a0e12') in 0.102937 seconds 
+  Import took 0.114538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.923961 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334e1433f26f656b8b2953565dea36d') in 0.003550 seconds 
+  Import took 0.008814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017794 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334e1433f26f656b8b2953565dea36d') in 0.004826 seconds 
+  Import took 0.011488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.693099 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag
+  artifactKey: Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag using Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88a673266c263fee83fdb40eff8d316') in 0.010534 seconds 
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007646 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag
+  artifactKey: Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag using Guid(5ed90c5fec38c394b8559150a908d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88a673266c263fee83fdb40eff8d316') in 0.003381 seconds 
+  Import took 0.011172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308919 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Bag.mat
+  artifactKey: Guid(6dbd088992cddeb44a08a957f41d0a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Bag.mat using Guid(6dbd088992cddeb44a08a957f41d0a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e0a9f8ab452afac95a3c8ccf4dc54') in 0.110053 seconds 
+  Import took 0.116374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png
+  artifactKey: Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/coin_texture.png using Guid(d3d6c79be0bb8d4458c62f48a5c5bdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a8d6deddfb1e51c0a8b3eeafc3a7a6') in 0.028310 seconds 
+  Import took 0.034328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Coins.mat
+  artifactKey: Guid(0633befa43c4ef34d83efafef1c0dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/Coins.mat using Guid(0633befa43c4ef34d83efafef1c0dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b4fa1b2b335e8c532c362ee9d86ad1') in 0.023758 seconds 
+  Import took 0.031973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/money_bag.fbx
+  artifactKey: Guid(0a472b1b0415fa8488a575d753711349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/money_bag.fbx using Guid(0a472b1b0415fa8488a575d753711349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3478e7a5fd077a1b28db6b0d487e6c0') in 0.068794 seconds 
+  Import took 0.076023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png
+  artifactKey: Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Prefabs/LootBag/bag.png using Guid(aedec9efb6173e44c861cfb8b1e5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef676d39edf9735114573b54b46572f') in 0.015353 seconds 
+  Import took 0.022305 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1656ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1407ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.3 MB.
+System memory in use after: 151.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 8.050000 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.197800 ms MarkObjects: 7.367300 ms  DeleteObjects: 0.045700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.919156 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/addButtonGradientOff.png
+  artifactKey: Guid(bffbd0b6b2e6d0c498783bb620f7206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/addButtonGradientOff.png using Guid(bffbd0b6b2e6d0c498783bb620f7206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919761dea2d7b07185a7a57c74e489ea') in 0.062797 seconds 
+  Import took 0.069847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/removeButtonGradientOn.png
+  artifactKey: Guid(42c236d42cc5d1046bfc475b37c81fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/removeButtonGradientOn.png using Guid(42c236d42cc5d1046bfc475b37c81fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d69966e7503ba5c696db88c65ee986') in 0.025473 seconds 
+  Import took 0.031489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3.terrainlayer
+  artifactKey: Guid(9d9d0d9fc4f72424f901f6523ed75f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3.terrainlayer using Guid(9d9d0d9fc4f72424f901f6523ed75f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751f29c50a3daca7e8a593f6db26e686') in 0.068725 seconds 
+  Import took 0.075423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Textures/Grad2.png
+  artifactKey: Guid(8104cb3b15ee8c444b7270a7b8983d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Textures/Grad2.png using Guid(8104cb3b15ee8c444b7270a7b8983d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5027203cfc5e273fee2144b9fa5ad8c') in 0.023198 seconds 
+  Import took 0.029008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/removeButtonGradientOff.png
+  artifactKey: Guid(2c8a398e796b7b649ab4f6655971b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/removeButtonGradientOff.png using Guid(2c8a398e796b7b649ab4f6655971b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83626bf12542b75cf2c8d884853c2a7') in 0.022779 seconds 
+  Import took 0.029329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter02.PNG
+  artifactKey: Guid(5f93b0c60bfdbd746b4706db2c61b7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter02.PNG using Guid(5f93b0c60bfdbd746b4706db2c61b7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058c9f18411f4e5192528e674d970f0') in 0.027604 seconds 
+  Import took 0.033949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_1.mat
+  artifactKey: Guid(2e636c0113630184d978c082c183c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_1.mat using Guid(2e636c0113630184d978c082c183c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bb57712fd2beccc738ee0a234342d0') in 0.064987 seconds 
+  Import took 0.070990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1.terrainlayer
+  artifactKey: Guid(a489a83d07e106d47a0966232bbf5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1.terrainlayer using Guid(a489a83d07e106d47a0966232bbf5357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988c6cfc079f5092da4be262ca43ebb3') in 0.026450 seconds 
+  Import took 0.031443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Textures/Grad1.png
+  artifactKey: Guid(b228a5d0fbd821d4ea3c587cc0f843d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkVFX/Textures/Grad1.png using Guid(b228a5d0fbd821d4ea3c587cc0f843d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e2381c5d2b97555fab2e26659f21a8') in 0.017191 seconds 
+  Import took 0.023509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/addButtonGradientOn.png
+  artifactKey: Guid(fa991d0678fa2eb44b56d27fa12fcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/EditorData/UI/Textures/addButtonGradientOn.png using Guid(fa991d0678fa2eb44b56d27fa12fcd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cc5f62c677d69c124870d1dbad1f48') in 0.020410 seconds 
+  Import took 0.026823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/Backgrounds/Gradient.PNG
+  artifactKey: Guid(42433bad6d2bb274fb0135fe9c69c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/Backgrounds/Gradient.PNG using Guid(42433bad6d2bb274fb0135fe9c69c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb9040f96e3fe460241d0afcd2fccb') in 0.033915 seconds 
+  Import took 0.040559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter04.PNG
+  artifactKey: Guid(b3a2a74664dda6f44b5aaaccac83bbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter04.PNG using Guid(b3a2a74664dda6f44b5aaaccac83bbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7503d04f1867c894435f5b917ed009a5') in 0.024335 seconds 
+  Import took 0.030609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/Backgrounds/Gradient.PNG
+  artifactKey: Guid(42433bad6d2bb274fb0135fe9c69c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/UI/RPGBGameUI/Backgrounds/Gradient.PNG using Guid(42433bad6d2bb274fb0135fe9c69c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb9040f96e3fe460241d0afcd2fccb') in 0.013761 seconds 
+  Import took 0.020579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassField.png
+  artifactKey: Guid(baac77a69801b814db973a5b99aa0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassField.png using Guid(baac77a69801b814db973a5b99aa0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e00aece87eb9a8338678f8f5635752') in 0.024327 seconds 
+  Import took 0.030946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/DialoguesExternalData/RPG_DIALOGUE_PickupNoviceWeapons_GRAPH.asset
+  artifactKey: Guid(4fedb9497ed52e045a81490a54f048c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/DialoguesExternalData/RPG_DIALOGUE_PickupNoviceWeapons_GRAPH.asset using Guid(4fedb9497ed52e045a81490a54f048c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b8a050d7274d11f1655491d972aeb7') in 0.012050 seconds 
+  Import took 0.017910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1_Basecolor.png
+  artifactKey: Guid(ba632777f5f16eb40acbd3ce3752d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1_Basecolor.png using Guid(ba632777f5f16eb40acbd3ce3752d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b61be566a4eb15f677a02dca039169c') in 0.020921 seconds 
+  Import took 0.028781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/Gradient_blue.PNG
+  artifactKey: Guid(d886c0cb73a19514a8be80f38031dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/Gradient_blue.PNG using Guid(d886c0cb73a19514a8be80f38031dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e42901efd5ae379e0c1cad6b444c91') in 0.021199 seconds 
+  Import took 0.026305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/Gradient_greyscale.PNG
+  artifactKey: Guid(789405d2635550c4c9df257b8e484c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/Gradient_greyscale.PNG using Guid(789405d2635550c4c9df257b8e484c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014f2959aee1407dde141afaba8ced02') in 0.014556 seconds 
+  Import took 0.021620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_3.mat
+  artifactKey: Guid(bb96815a57a538f4f9394fe1a5b5d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_3.mat using Guid(bb96815a57a538f4f9394fe1a5b5d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7d9cf8b9f0e9e2029944628a23c704') in 0.019278 seconds 
+  Import took 0.024531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter03.png
+  artifactKey: Guid(03e4ee8d0b5f45045bb12e2930ed4058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/GabrielAguiarProductions/Textures/GradientCenter03.png using Guid(03e4ee8d0b5f45045bb12e2930ed4058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829b6e9d6b59c59093d7d28de466d032') in 0.014660 seconds 
+  Import took 0.020085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Texture/Light/Gradient_1.png
+  artifactKey: Guid(f4f535de90ec4e34180bd1b89659b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Texture/Light/Gradient_1.png using Guid(f4f535de90ec4e34180bd1b89659b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e525df23826940ac1cd6e37cd9f72f') in 0.015712 seconds 
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassTall.png
+  artifactKey: Guid(c1e4e86e9e93c3d4aa7b438386aba029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassTall.png using Guid(c1e4e86e9e93c3d4aa7b438386aba029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e784c051856a1e37f7da55fe782e1e0') in 0.016560 seconds 
+  Import took 0.022438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3_BaseColor.png
+  artifactKey: Guid(b0e0b13019e498f4b84813abff766be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3_BaseColor.png using Guid(b0e0b13019e498f4b84813abff766be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6532fda0ea146713002d27ad4f6ee08d') in 0.017641 seconds 
+  Import took 0.022815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1_Normal.png
+  artifactKey: Guid(1fdf132af2c5ec6438d8ae35fdbf27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3_Mud_1/Grass_3_Mud_1_Normal.png using Guid(1fdf132af2c5ec6438d8ae35fdbf27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99677adb871e6bc01509f159be62599') in 0.024972 seconds 
+  Import took 0.030095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassThick.png
+  artifactKey: Guid(a0ee5ef2b07cdc440ad04d7434d0249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/Staggart/Stylized Grass Shader/Materials/Textures/GrassThick.png using Guid(a0ee5ef2b07cdc440ad04d7434d0249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7ba47fcdc8d3c5b6cba9172e4a22f') in 0.023295 seconds 
+  Import took 0.029343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_2.mat
+  artifactKey: Guid(6900add9e128d024b9b3c0c552b0f674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/ThirdPartyAssets/RDR/Particles/RPG Effect Pack/Material/Light/Gradient_2.mat using Guid(6900add9e128d024b9b3c0c552b0f674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cc531ae1aa1a51d7f8ed43dcc89043') in 0.019466 seconds 
+  Import took 0.024740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3_Normal.png
+  artifactKey: Guid(44866546cd62f744ba4f108ad685e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3_Normal.png using Guid(44866546cd62f744ba4f108ad685e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85870b8f3255c1640a790d60199279d1') in 0.019821 seconds 
+  Import took 0.026619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.859164 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeCombatAnimatorOverride.overrideController
+  artifactKey: Guid(623e7a958241861428113b7fa4ed9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeCombatAnimatorOverride.overrideController using Guid(623e7a958241861428113b7fa4ed9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6751c5e9b05c8440386650c609ba240') in 0.056084 seconds 
+  Import took 0.063723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Dragon Greataxe.asset
+  artifactKey: Guid(10a3d7e7d81b22c4ebe101b812e07796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Dragon Greataxe.asset using Guid(10a3d7e7d81b22c4ebe101b812e07796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d1d664a9544ad3101ba69934b68b3') in 0.295992 seconds 
+  Import took 0.324091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeRestAnimatorOverride.overrideController
+  artifactKey: Guid(edb474817a7ad7f48bc68aeec4eb0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeRestAnimatorOverride.overrideController using Guid(edb474817a7ad7f48bc68aeec4eb0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0cbe7bbd6a265c143ce5b0010f2e2') in 0.071934 seconds 
+  Import took 0.080424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Refined Greataxe.asset
+  artifactKey: Guid(17d0ac23e6ffcae458b12e506767199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Refined Greataxe.asset using Guid(17d0ac23e6ffcae458b12e506767199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f991ab8156c64785d50d7ea9db38f6') in 0.210089 seconds 
+  Import took 0.236419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeRestAnimatorOverride.overrideController
+  artifactKey: Guid(edb474817a7ad7f48bc68aeec4eb0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Characters/Animators/Overrides/GreataxeRestAnimatorOverride.overrideController using Guid(edb474817a7ad7f48bc68aeec4eb0eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0cbe7bbd6a265c143ce5b0010f2e2') in 0.057702 seconds 
+  Import took 0.066601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Novice Greataxe.asset
+  artifactKey: Guid(2bd13577d04d71f4992422a4afc4fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Tools/RPGBuilder/Resources/Database/Items/RPG_ITEM_Novice Greataxe.asset using Guid(2bd13577d04d71f4992422a4afc4fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8914b2d1c74b52107441d2a1e79b627b') in 0.199403 seconds 
+  Import took 0.224075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.770041 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f729af8d1c42564a8e48ee13f8d069ac') in 0.002935 seconds 
+  Import took 0.007673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023767 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f729af8d1c42564a8e48ee13f8d069ac') in 0.003402 seconds 
+  Import took 0.007920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1489ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1214ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 5.615400 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.176000 ms MarkObjects: 4.975400 ms  DeleteObjects: 0.036300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+<<<<<<< HEAD
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2481 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2939.
+Total: 4.408300 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.145600 ms MarkObjects: 3.753200 ms  DeleteObjects: 0.246500 ms)
+=======
+Received Import Request.
+  Time since last request: 78.718464 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba916350796e8c9287e6669a0c2c89') in 0.027219 seconds 
+  Import took 0.033633 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3018.
+Total: 4.434500 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.173400 ms MarkObjects: 3.926400 ms  DeleteObjects: 0.029800 ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
   path: Assets/Scenes/Tools.unity
   artifactKey: Guid(59f9dea6666ee5f498ddc2fbb1c22d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Tools.unity using Guid(59f9dea6666ee5f498ddc2fbb1c22d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e742de4ce5384379ac027e6eff3817') in 0.031900 seconds 
@@ -784,5 +2509,88 @@ Received Import Request.
   artifactKey: Guid(44866546cd62f744ba4f108ad685e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Blink/Tools/RPGBuilder/Art/BlinkStylizedTextures/Grass_3/Grass_3_Normal.png using Guid(44866546cd62f744ba4f108ad685e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85870b8f3255c1640a790d60199279d1') in 0.027431 seconds 
   Import took 0.034798 seconds .
+=======
+  Time since last request: 55.139054 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a835491ed7bae214195b5c6b52d254e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a835491ed7bae214195b5c6b52d254e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463a4de4eeddfce8eee084d7e0a62639') in 0.010660 seconds 
+  Import took 0.016668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009335 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a835491ed7bae214195b5c6b52d254e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a835491ed7bae214195b5c6b52d254e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463a4de4eeddfce8eee084d7e0a62639') in 0.002678 seconds 
+  Import took 0.007451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.335874 seconds.
+  path: Assets/Paniagua/Scene/Player Test Scene.unity
+  artifactKey: Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paniagua/Scene/Player Test Scene.unity using Guid(3f3136f065920a846abfbfb0b6008547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c051df7f3841f52932e5f9de97da5082') in 0.026383 seconds 
+  Import took 0.031907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in D:\GithubProjects\Prototti\Prototipo Third Person Character TF\Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1570ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3020.
+Total: 6.408100 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.198600 ms MarkObjects: 5.782900 ms  DeleteObjects: 0.029200 ms)
+>>>>>>> 5e3619ebf1c89c2dcfd8bcfbe60f4360fbc7ef55
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

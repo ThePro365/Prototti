@@ -18,26 +18,26 @@ MonoBehaviour:
   displayName: Player Test
   description: 
   loadingBG: {fileID: 21300000, guid: 9715d3dd6b238724398a35d4aae32dba, type: 3}
-  minimapImage: {fileID: 0}
+  minimapImage: {fileID: 21300000, guid: 8277b16ee4102d541a1fee45a098a1e6, type: 3}
   mapBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 50, y: 0, z: 75}
   mapSize: {x: 4096, y: 4096}
-  startPositionID: -1
+  startPositionID: 1
   startPositionREF: {fileID: 0}
   isProceduralScene: 0
   SpawnPointName: 
   regions:
   - regionName: Test Area
-    fogChange: 0
-    lightningChange: 0
-    skyboxChange: 0
-    cameraParticleChange: 0
+    fogChange: 1
+    lightningChange: 1
+    skyboxChange: 1
+    cameraParticleChange: 1
     musicChange: 0
     combatModeChange: 1
-    combatStateChange: 0
-    welcomeText: 0
-    gameActions: 0
+    combatStateChange: 1
+    welcomeText: 1
+    gameActions: 1
     taskCompletion: 0
     showInEditor: 1
     fogEnabled: 1
@@ -57,7 +57,7 @@ MonoBehaviour:
     cameraParticle: {fileID: 0}
     musicClips: []
     combatEnabled: 1
-    inCombat: 0
+    inCombat: 1
     welcomeMessageText: 
     welcomeMessageDuration: 0
     GameActionsList: []
