@@ -25,7 +25,7 @@ MonoBehaviour:
   npcToKillREF: {fileID: 0}
   itemToGetID: 46
   itemToGetREF: {fileID: 11400000, guid: 0c70f918e219fb24386309372171cd39, type: 2}
-  keepItems: 1
+  keepItems: 0
   classRequiredID: -1
   classRequiredREF: {fileID: 0}
   skillRequiredID: -1

@@ -46,10 +46,10 @@ MonoBehaviour:
   buyCurrencyREF: {fileID: 0}
   stackLimit: 10
   description: 
-  dropInWorld: 0
-  itemWorldModel: {fileID: 0}
+  dropInWorld: 1
+  itemWorldModel: {fileID: 3365173744833463835, guid: ea001bcd68210d644a1e2bc2ebd9fa5a, type: 3}
   durationInWorld: 60
-  worldInteractableLayer: 0
+  worldInteractableLayer: 10
   enchantmentREF: {fileID: 0}
   enchantmentID: -1
   isEnchantmentConsumed: 0
@@ -57,6 +57,71 @@ MonoBehaviour:
   gemData:
     socketType: 
     gemStats: []
-  useRequirements: []
-  onUseActions: []
+  useRequirements:
+  - requirementType: 0
+    pointSpentValue: 0
+    classRequiredID: -1
+    classRequiredREF: {fileID: 0}
+    classLevelValue: 0
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    consumeItem: 0
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    skillLevelValue: 0
+    bonusRequiredID: -1
+    bonusRequiredREF: {fileID: 0}
+    abilityRequiredID: -1
+    abilityRequiredREF: {fileID: 0}
+    craftingRecipeRequiredID: -1
+    recipeRequiredREF: {fileID: 0}
+    resourceNodeRequiredID: -1
+    resourceNodeRequiredREF: {fileID: 0}
+    raceRequiredID: -1
+    raceRequiredREF: {fileID: 0}
+    questRequiredID: -1
+    questRequiredREF: {fileID: 0}
+    questStateRequired: 0
+    npcRequiredID: -1
+    npcRequiredREF: {fileID: 0}
+    npcKillsRequired: 0
+    weaponTemplateRequiredID: -1
+    weaponTemplateRequiredREF: {fileID: 0}
+    weaponTemplateLevelValue: 0
+    textNodeREF: {fileID: 0}
+    weaponRequired: 
+  onUseActions:
+  - actionType: 0
+    treePointGained: 0
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    classLevelGained: 0
+    classXPGained: 0
+    skillLevelGained: 0
+    skillXPGained: 0
+    skillID: -1
+    skillREF: {fileID: 0}
+    abilityID: -1
+    abilityREF: {fileID: 0}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    effectID: -1
+    effectREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    questID: -1
+    questREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    factionPointsGained: 0
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateXPGained: 0
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    target: 0
+    isConsumed: 0
   actionAbilities: []
